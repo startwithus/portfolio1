@@ -1,0 +1,24 @@
+.card-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 3rem auto 0 auto;
+
+}
+.card-image img{
+    width:150px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn !important;
+    
+}
+@media (max-width:768px) {
+    .card-one{
+        flex-wrap: wrap;
+    }
+    .card-image img{
+        width: 120px;
+        margin-top: 1rem;
+    }
+}

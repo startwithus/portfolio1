@@ -1,0 +1,190 @@
+.sidebar-container{
+    width: 90%;
+    margin: 3.8rem auto 12rem auto;
+    padding: 1rem 0;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.side-bar-left{
+    margin-top: 5rem;
+    position: sticky;
+    top: 80px;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 15%; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+   
+}
+.active-line{
+    width: 2rem;
+    height: 2px;
+    border-radius: 1px;
+    margin-right: 5px;
+    background-color: #3e64ff;
+}
+
+.sidebar-link{
+    cursor: pointer;
+    font-size: 1rem;
+    color: black;
+    /* text-align: center; */
+    background-color: white;
+    border-radius: .5rem;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+/* .sidebar-link:hover{
+    background-color: aquamarine;
+} */
+.side-bar-right{
+    width: 85%;
+    margin-left: 12%;
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;
+  
+}
+.side-bar-right::-webkit-scrollbar {
+    display: none;
+}
+.test{
+    margin-top: 6rem;
+}
+.active-side-bar{
+    color: #3e64ff;
+    margin-left: 1rem;
+}
+/* education style  */
+.education-container h1{
+    margin-left: 1rem;
+    margin-bottom: 0.1rem;
+    color: #3e64ff;
+    font-size: 29px;
+}
+.icon-notes{
+    background-color:#3e64ff ;
+    width: 7rem;
+    border-radius: 50%;
+    height: 3.3rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notes-icon{
+    font-size: 1.5rem;
+}
+.education-content{
+    border-bottom: 1px solid #dbdbdd;
+    padding: 1rem;
+    margin: 20px 0;
+    width: 90%;
+    display: flex;
+    /* align-items: center; */
+}
+.education-details{
+    margin-left: 1rem;
+}
+.education-details .para {
+    color: #3e64ff;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.education-details h2{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size: 24px;
+}
+.education-details h3{
+    margin-top: 0.8rem;
+    font-weight: bold;
+    /* font-size: 24px; */
+}
+
+.long-para{
+    margin-top: 0.5rem;
+    line-height: 25px;
+    color: #999999;
+}
+/* skills style  */
+.loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 85%, transparent 90%),
+      conic-gradient(#3e64ff 90%, gray 0);    
+    /* background-color: #3e64ff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-card{
+    display: flex;
+}
+.skills-content{
+    background-color: white;
+ box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+ padding: 1rem;
+ width: 30%;
+ margin: 1rem;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+}
+.progress-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.progress-content{
+    width: 45%;
+}
+.progress-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progress{
+    width: 100%;
+    border: 1px solid #dbdbdd;
+    margin-top: 1rem;
+}
+@media (max-width:768px) {
+    .sidebar-container{
+        flex-direction: column;
+    }
+    .side-bar-left{
+ width: 100%;
+    }
+    .side-bar-right{
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    .education-content{
+        width: 100%;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .icon-notes{
+        width: 5rem;
+        height: 5rem;
+        text-align: center;
+    }
+    .skills-card{
+        flex-direction: column;
+    }
+    .skills-content{
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;
+    }
+}

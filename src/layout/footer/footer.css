@@ -1,0 +1,64 @@
+.footer-container{
+    background-color: black;
+    width: 100%;
+    color:white;
+}
+.footer-content{
+    width: 90%;
+    padding: 8rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem auto;
+}
+.about-footer{
+flex: 0 1 400px;
+}
+.links-footer{
+    flex: 0 1 150px;
+}
+.services-footer{
+    flex: 0 1 300px;
+}
+.question-footer{
+    flex: 0 1 300px;
+    /* margin-left: 2rem; */
+}
+.footer-content h2{
+margin-bottom: 2rem;
+font-size: 23px;
+font-weight: 600;
+}
+
+.links-footer ul li{
+    color: #dbdbdb;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.links-footer ul li:hover{
+    color: #3e64ff;
+}
+.footer-container p{
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    color: #dbdbdb;
+}
+.icon-fac{
+    font-size: 1.5rem;
+    margin: 1rem 1rem 1rem 0rem;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .footer-content{
+        flex-direction: column;
+    }
+    .about-footer{
+        flex :1
+    }
+    .links-footer{
+        flex :1;
+    }
+    .question-footer{
+        flex: 1;
+    }
+}
