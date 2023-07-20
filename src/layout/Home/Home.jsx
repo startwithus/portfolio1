@@ -13,6 +13,7 @@ import OurServices from './ourservices/OurServices'
 import OurProject from './ourProject/OurProject'
 import OurBlog from './ourBlog/OurBlog'
 import Freelancing from './freelancing/Freelancing'
+
 const Home = () => {
   const data = [
     {img: one},
