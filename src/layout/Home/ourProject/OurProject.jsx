@@ -2,7 +2,7 @@ import React from 'react'
 import '../ourProject/ourproject.css'
 import var1 from '../../../assets/doctor.jpg';
 import farmers from '../../../assets/farmers1.jpg';
-import crm from '../../../assets/crm3.png';
+import click from '../../../assets/clickbet.jpg';
 import oneMoney from '../../../assets/onemoney.png';
 import visa from '../../../assets/visa1.jpg';
 import cloud from '../../../assets/cloud3.jpg';
@@ -20,9 +20,9 @@ const OurProject = () => {
           para:"A mobile application for farmers for getting notification for crops care"
         },
         {
-            img:crm,
-            head:"CRM",
-          para:"A customer relationship management tool designed using Node and React"
+            img:click,
+            head:"CLICK",
+          para:"Online gaming platform"
         },
         {
             img:oneMoney,

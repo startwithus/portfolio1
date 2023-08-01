@@ -12,7 +12,7 @@
     position: sticky;
     top: 80px;
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 15%; /* Set the width of the sidebar */
+    width: 30%; /* Set the width of the sidebar */
     z-index: 1; /* Stay on top */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
@@ -67,9 +67,9 @@
 }
 .icon-notes{
     background-color:#3e64ff ;
-    width: 7rem;
+    width: 3.3rem;
     border-radius: 50%;
-    height: 3.3rem;
+    height: 3rem;
     text-align: center;
     color: white;
     display: flex;

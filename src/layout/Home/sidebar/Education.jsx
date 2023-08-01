@@ -1,24 +1,42 @@
 import React from 'react'
-import {GiDeathNote} from 'react-icons/gi'
+import { GiDeathNote } from 'react-icons/gi'
 const Education = () => {
-    const data = ['1','2','3','4']
+  const data = [
+    {
+      year: "2017-2021",
+      degree : "B-TECH",
+      steam:"Information Technology",
+      university :"Dr. A. P. J. Abdul Kalam Technical University, Lucknow"
+    },
+    {
+      year: "2014-2016",
+      steam:"Science",
+      university:"Central Board of Secondary Education"
+      },
+    {
+      year: "2012-2014",
+      steam:"10th",
+      university:"Central Board of Secondary Education"
+    },
+  ]
   return (
     <div className="education-container">
-        <h1>Education</h1>
-        {
-            data.map((el,i)=>(
-                <div className="education-content">
-                <div className="icon-notes"> <GiDeathNote className='notes-icon'/> </div>
-                <div className="education-details">
-                  <p className='para'>2018-2021</p>
-                  <h2>Bachelors's in Computer Application</h2>
-                  <h3>Cambridge University</h3>
-                  <p className='long-para'>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                </div>
-              </div>
-            ))
-        }
-       
+      <h1>Education</h1>
+      {
+        data.map((el, i) => (
+          <div className="education-content">
+            <div className="icon-notes"> <GiDeathNote className='notes-icon' /> </div>
+            <div className="education-details">
+              <p className='para'>{el.year}</p>
+              <h2>{el.degree}</h2>
+              <h2>{el.steam}</h2>
+              <h3>{el.university}</h3>
+              <p className='long-para'>{el.para}</p>
+            </div>
+          </div>
+        ))
+      }
+
     </div>
   )
 }

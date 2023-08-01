@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { TypeAnimation } from 'react-type-animation';
 import "./header.css";
 import { BsArrowDown } from 'react-icons/bs';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/deep logo.jpg';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 const Header = () => {
   const [open, setOpen] = useState(false)
@@ -35,7 +35,7 @@ const Header = () => {
       <div >< BsArrowDown className="down-arrow" /></div>
       <div className="text-head">
         <h3>HEY! I AM</h3>
-        <h1>Prashant Gupta</h1>
+        <h1>Deepak Chauhan</h1>
         {/* <p> I'm a
         <span className='span-1'> Developer.</span>
         <span className='spa-1'> Web Designer.</span>

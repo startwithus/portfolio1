@@ -40,7 +40,7 @@
 .service-body:hover{
     background-color: #3e64ff;
     color: white;
-    transition: .1s linear;
+    transition: .4s all ease;
     
 }
 

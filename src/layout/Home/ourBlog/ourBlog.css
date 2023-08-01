@@ -45,11 +45,17 @@
     margin-bottom: 2rem;
 }
 .our-blog-para2{
-    color: #999999;;
+    color: #999999;
     line-height: 2rem;
 }
 .blog-para{
-    color: #3e64ff;
+     /* color: #3e64ff; */
+     color: #999999;
+    
+}
+.blog-para1 a{
+    color: blue;
+    text-decoration: none;
 }
 
 
@@ -63,6 +69,7 @@
 }
 .contact-img{
     height: 580px;
+    
 }
 .contact-form {
     width: 50%;
